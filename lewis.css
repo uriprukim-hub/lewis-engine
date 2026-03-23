@@ -1,0 +1,7 @@
+.mol-canvas{width:280px;background:#fff;border-radius:16px;border:1px solid #dde6f0;overflow:hidden;display:inline-block;vertical-align:top}
+.mol-canvas svg{display:block;max-width:100%;height:auto}
+.mol-caption{display:block;font-size:.72rem;text-align:center;color:#4a6f8a;padding:.4rem .6rem .6rem;font-weight:500}
+.mol-error{font-size:.7rem;color:#b91c1c;padding:1rem;text-align:center}
+.mol-row{display:flex;flex-wrap:wrap;gap:1.2rem;margin:1rem 0 1.5rem}
+.mol-center{display:flex;justify-content:center;margin:1rem 0 1.5rem}
+@media(max-width:480px){.mol-canvas{width:100%!important}.mol-row{flex-direction:column;align-items:center}}
